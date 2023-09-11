@@ -1,0 +1,550 @@
+.news-banner{
+    background: url('images/news-mic.svg') no-repeat 47% center, url('images/news-title.svg') no-repeat center center, url('images/news-banner.png') no-repeat center center, url('images/on-dark-bg.png') no-repeat center center;
+    background-size: 350px 450px, 1000px 200px, cover, cover;
+}
+
+.grid-bg {
+    background: url('images/on-light-bg.png') no-repeat center center, linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 1.0));
+    background-size:cover;
+}
+
+.news-top{
+    position:relative;
+    top:-8%;
+    width: 100%;
+}
+
+.news-1-body {
+    position: relative;
+    height: 100%;
+    width: 20rem;
+    left: -6%;
+    top: -1.5%;
+}
+
+.news-1-bg {
+    height: 100%;
+    width: 20rem;
+}
+
+.img-1{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-2-body {
+    position: relative;
+    height: 100%;
+    width: 50rem;
+    left: -3.5%;
+    top: -2%;
+}
+
+.news-2-bg {
+    height: 100%;
+    width: 51rem;
+}
+
+.img-2{
+    height:150px;
+    width: 100%;
+    object-fit: cover;
+}
+.news-3-body {
+    position: relative;
+    height: 100%;
+    width: 18rem;
+    left: -7%;
+    top: -3%;
+}
+
+.news-3-bg {
+    height: 100%;
+    width: 18rem;
+}
+.news-4-body {
+    position: relative;
+    height: 100%;
+    width: 30rem;
+    left: -4%;
+    top: -3%;
+}
+
+.news-4-bg {
+    height: 100%;
+    width: 30rem;
+}
+.news-5-body {
+    position: relative;
+    height: 100%;
+    width: 45rem;
+    left: -3%;
+    top: -1.5%;
+}
+
+.news-5-bg {
+    height: 100%;
+    width: 45rem;
+}
+
+.img-5{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.news-6-body {
+    position: relative;
+    height: 9rem;
+    width: 25rem;
+    left: -5%;
+    top: -3%;
+}
+
+.news-6-bg {
+    height: 9rem;
+    width: 25rem;
+}
+.news-7-body {
+    position: relative;
+    height: 18rem;
+    width: 25rem;
+    left: -5%;
+    top: -1.5%;
+}
+
+.news-7-bg {
+    height: 18rem;
+    width: 25rem;
+}
+
+.img-7{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.news-8-body {
+    position: relative;
+    height: 9rem;
+    width: 25rem;
+    left: -5%;
+    top: -3%;
+}
+
+.news-8-bg {
+    height: 9rem;
+    width: 25rem;
+}
+.news-heading{
+    font-size: 1.5rem;
+}
+
+.news-para{
+    font-size: 0.75rem;
+}
+@media (min-width:1400px){
+    .news-banner{
+        background: url('images/news-mic.svg') no-repeat 47% center, url('images/news-title.svg') no-repeat center center, url('images/news-banner.png') no-repeat center center, url('images/on-dark-bg.png') no-repeat center center;
+        background-size: 516px 616px, 1320px 285px, cover, cover;
+    }
+    .news-top{
+        position:relative;
+        top:-20%;
+        width: 100%;
+    }
+    .news-1-body {
+        position: relative;
+        height: 50rem;
+        width: 25rem;
+        left: -6%;
+        top: -1.5%;
+    }
+    
+    .news-1-bg {
+        height: 50rem;
+        width: 25rem;
+    }
+    .img-1{
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-2-body {
+        position: relative;
+        height: 31.2rem;
+        width: 55rem;
+        left: -3.5%;
+        top: -2%;
+    }
+    
+    .news-2-bg {
+        height: 31.2rem;
+        width: 56rem;
+    }
+    
+    .img-2{
+        height:280px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-3-body {
+        position: relative;
+        height: 17.2rem;
+        width: 22rem;
+        left: -7%;
+        top: -3%;
+    }
+    
+    .news-3-bg {
+        height: 17.2rem;
+        width: 22rem;
+    }
+    .news-4-body {
+        position: relative;
+        height: 100%;
+        width: 31rem;
+        left: -5%;
+        top: -3%;
+    }
+    
+    .news-4-bg {
+        height: 100%;
+        width: 31rem;
+    }
+    .news-5-body {
+        position: relative;
+        height: 50rem;
+        width: 45rem;
+        left: -3%;
+        top: -1.5%;
+    }
+    
+    .news-5-bg {
+        height: 50rem;
+        width: 45rem;
+    }
+    
+    .img-5{
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-6-body {
+        position: relative;
+        height: 11rem;
+        width: 35rem;
+        left: -4%;
+        top: -3%;
+    }
+    
+    .news-6-bg {
+        height: 11rem;
+        width: 35rem;
+    }
+    .news-7-body {
+        position: relative;
+        height: 26rem;
+        width: 35rem;
+        left: -4%;
+        top: -1.5%;
+    }
+    
+    .news-7-bg {
+        height: 26rem;
+        width: 35rem;
+    }
+    
+    .img-7{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-8-body {
+        position: relative;
+        height: 11rem;
+        width: 35rem;
+        left: -4%;
+        top: -3%;
+    }
+    
+    .news-8-bg {
+        height: 11rem;
+        width: 35rem;
+    }
+    .news-heading{
+        font-size: 2rem;
+    }
+    
+    .news-para{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1200px){
+    .news-banner{
+        background: url('images/news-mic.svg') no-repeat 47% center, url('images/news-title.svg') no-repeat center center, url('images/news-banner.png') no-repeat right center, url('images/on-dark-bg.png') no-repeat center center;
+        background-size: 250px 350px, 600px 200px, cover, cover;
+    }
+    .news-1-body {
+        position: relative;
+        height: 20rem;
+        width: 42rem;
+        left: -3%;
+        top: -1.75%;
+    }
+    
+    .news-1-bg {
+        height: 20rem;
+        width: 46rem;
+    }
+    
+    .img-1{
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .news-2-body {
+        position: relative;
+        height: 19rem;
+        width: 42rem;
+        left: -3.5%;
+        top: -1.5%;
+    }
+    
+    .news-2-bg {
+        height: 19rem;
+        width: 46rem;
+    }
+    
+    .img-2{
+        height:150px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-3-body {
+        position: relative;
+        height: 7rem;
+        width: 41.5rem;
+        left: -4%;
+        top: -3%;
+    }
+    
+    .news-3-bg {
+        height: 7rem;
+        width: 46rem;
+    }
+    .news-4-body {
+        position: relative;
+        height: 7rem;
+        width: 41.5rem;
+        left: -4%;
+        top: -3%;
+    }
+    
+    .news-4-bg {
+        height: 7rem;
+        width: 46rem;
+    }
+    .news-heading{
+        font-size: 1.5rem;
+    }
+    .news-5-body {
+        position: relative;
+        height: 20rem;
+        width: 41.5rem;
+        left: -3%;
+        top: -1.75%;
+    }
+    
+    .news-5-bg {
+        height: 20rem;
+        width: 41.5rem;
+    }
+    
+    .img-5{
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-6-body {
+        position: relative;
+        height: 7rem;
+        width: 41.5rem;
+        left: -3%;
+        top: -4%;
+    }
+    
+    .news-6-bg {
+        height: 7rem;
+        width: 41.5rem;
+    }
+    .news-7-body {
+        position: relative;
+        height: 17rem;
+        width: 41.5rem;
+        left: -3%;
+        top: -1.75%;
+    }
+    
+    .news-7-bg {
+        height: 17rem;
+        width: 41.5rem;
+    }
+    
+    .img-7{
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-8-body {
+        position: relative;
+        height: 7rem;
+        width: 41.5rem;
+        left: -3%;
+        top: -3%;
+    }
+    
+    .news-8-bg {
+        height: 7rem;
+        width: 41.5rem;
+    }
+    .news-para{
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:768px){
+    .news-banner{
+        background: url('images/news-mic.svg') no-repeat 47% center, url('images/news-title.svg') no-repeat center center, url('images/news-banner.png') no-repeat right center, url('images/on-dark-bg.png') no-repeat center center;
+        background-size: 120px 150px, 300px 100px, cover, cover;
+    }
+    .news-1-body {
+        position: relative;
+        height: 10.5rem;
+        width: 20rem;
+        left: -6%;
+        top: -1.75%;
+    }
+    
+    .news-1-bg {
+        height: 10.5rem;
+        width: 20rem;
+    }
+    
+    .img-1{
+        height: 60px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .news-2-body {
+        position: relative;
+        height: 12rem;
+        width: 20rem;
+        left: -6%;
+        top: -1.5%;
+    }
+    
+    .news-2-bg {
+        height: 12rem;
+        width: 20rem;
+    }
+    
+    .img-2{
+        height:60px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-3-body {
+        position: relative;
+        height: 6.5rem;
+        width: 20rem;
+        left: -6.5%;
+        top: -3%;
+    }
+    
+    .news-3-bg {
+        height: 6.5rem;
+        width: 20rem;
+    }
+    .news-4-body {
+        position: relative;
+        height: 6.5rem;
+        width: 20rem;
+        left: -6.5%;
+        top: -3%;
+    }
+    
+    .news-4-bg {
+        height: 6.5rem;
+        width: 20rem;
+    }
+    .news-5-body {
+        position: relative;
+        height: 12rem;
+        width: 20rem;
+        left: -6%;
+        top: -1.75%;
+    }
+    
+    .news-5-bg {
+        height: 12rem;
+        width: 20rem;
+    }
+    
+    .img-5{
+        height: 80px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-6-body {
+        position: relative;
+        height: 6.5rem;
+        width: 20rem;
+        left: -5%;
+        top: -4%;
+    }
+    
+    .news-6-bg {
+        height: 6.5rem;
+        width: 20rem;
+    }
+    .news-7-body {
+        position: relative;
+        height: 12.5rem;
+        width: 20rem;
+        left: -6%;
+        top: -1.75%;
+    }
+    
+    .news-7-bg {
+        height: 12.5rem;
+        width: 20rem;
+    }
+    
+    .img-7{
+        height: 80px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news-8-body {
+        position: relative;
+        height: 6.5rem;
+        width: 20rem;
+        left: -5%;
+        top: -3%;
+    }
+    
+    .news-8-bg {
+        height: 6.5rem;
+        width: 20rem;
+    }
+    .news-heading{
+        font-size: 1.15rem;
+    }
+    
+    .news-para{
+        font-size: 0.5rem;
+    }
+}

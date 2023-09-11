@@ -1,0 +1,99 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.scene {
+  /* border: 1px solid #CCC; */
+  margin: 40px 0;
+  position: relative;
+  width: 320px;
+  height: 420px;
+  margin: 40px auto;
+  perspective: 1000px;
+  /* opacity:0.5; */
+}
+
+.carousel-1, .carousel-2, .carousel-3, .carousel-4, .carousel-5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(-444px);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.carousel__cell {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 10px;
+  top: 10px;
+  /* border: 2px solid black; */
+  line-height: 116px;
+  font-size: 80px;
+  font-weight: bold;
+  /* color: white; */
+  text-align: center;
+}
+
+.carousel__cell:nth-child(1) { 
+    transform: rotateY(  0deg) translateZ(444px); 
+    /* opacity: 0.5; */
+}
+.carousel__cell:nth-child(2) { transform: rotateY( 60deg) translateZ(444px); }
+.carousel__cell:nth-child(3) { transform: rotateY(120deg) translateZ(444px); }
+.carousel__cell:nth-child(4) { transform: rotateY(180deg) translateZ(444px); }
+.carousel__cell:nth-child(5) { transform: rotateY(240deg) translateZ(444px); }
+.carousel__cell:nth-child(6) { transform: rotateY(300deg) translateZ(444px); }
+
+#galaxies, #universe, #exoplanets, #solar{
+  display:none;
+}
+
+.tele-btn:hover{
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 240, 0.12) 0%, rgba(22, 191, 181, 0.00) 100%), radial-gradient(42.97% 42.97% at 50.29% 100%, rgba(29, 222, 210, 0.36) 0%, rgba(24, 206, 195, 0.00) 100%), rgba(128, 128, 128, 0.30);
+  background-blend-mode: normal, color-dodge, luminosity;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(50px);
+}
+
+.tele-active{
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 240, 0.12) 0%, rgba(22, 191, 181, 0.00) 100%), radial-gradient(42.97% 42.97% at 50.29% 100%, rgba(29, 222, 210, 0.36) 0%, rgba(24, 206, 195, 0.00) 100%), rgba(128, 128, 128, 0.30);
+  background-blend-mode: normal, color-dodge, luminosity;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(50px);
+}
+
+.gala-btn:hover{
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 214, 90, 0.12) 0%, rgba(255, 214, 90, 0.00) 100%), radial-gradient(42.97% 42.97% at 50.29% 100%, rgba(255, 214, 90, 0.36) 0%, rgba(255, 214, 90, 0.00) 100%), rgba(128, 128, 128, 0.30);
+  background-blend-mode: normal, color-dodge, luminosity;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(50px);
+}
+
+.univ-btn:hover{
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(226, 87, 100, 0.12) 0%, rgba(226, 87, 100, 0.00) 100%), radial-gradient(42.97% 42.97% at 50.29% 100%, rgba(226, 87, 100, 0.36) 0%, rgba(226, 87, 100, 0.00) 100%), rgba(128, 128, 128, 0.30);
+  background-blend-mode: normal, color-dodge, luminosity;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(50px);
+}
+
+.exop-btn:hover{
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(40, 167, 69, 0.12) 0%, rgba(40, 167, 69, 0.00) 100%), radial-gradient(42.97% 42.97% at 50.29% 100%, rgba(40, 167, 69, 0.36) 0%, rgba(40, 167, 69, 0.00) 100%), rgba(128, 128, 128, 0.30);
+  background-blend-mode: normal, color-dodge, luminosity;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(50px);
+}
+
+.sola-btn:hover{
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(165, 166, 246, 0.12) 0%, rgba(165, 166, 246, 0.00) 100%), radial-gradient(42.97% 42.97% at 50.29% 100%, rgba(165, 166, 246, 0.36) 0%, rgba(165, 166, 246, 0.00) 100%), rgba(128, 128, 128, 0.30);
+  background-blend-mode: normal, color-dodge, luminosity;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(50px);
+}

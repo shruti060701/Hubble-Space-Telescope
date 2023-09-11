@@ -1,0 +1,31 @@
+.image-banner{
+    background: url('images/image-cam.svg') no-repeat 47% center, url('images/image-title.svg') no-repeat center center, url('images/image-banner.png') no-repeat center center, url('images/on-dark-bg.png') no-repeat center center;
+    background-size: 350px 450px, 1000px 200px, cover, cover;
+}
+
+.images-bg
+{
+    background: url('images/images-bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+@media (min-width:1400px){
+    .image-banner{
+        background: url('images/image-cam.svg') no-repeat 47% center, url('images/image-title.svg') no-repeat center center, url('images/image-banner.png') no-repeat center center, url('images/on-dark-bg.png') no-repeat center center;
+        background-size: 516px 616px, 1320px 285px, cover, cover;
+    }
+}
+
+@media (max-width:1200px){
+    .image-banner{
+        background: url('images/image-cam.svg') no-repeat 47% center, url('images/image-title.svg') no-repeat center center, url('images/image-banner.png') no-repeat right center, url('images/on-dark-bg.png') no-repeat center center;
+        background-size: 250px 350px, 600px 200px, cover, cover;
+    }
+}
+
+@media (max-width:768px){
+    .image-banner{
+        background: url('images/image-cam.svg') no-repeat 47% center, url('images/image-title.svg') no-repeat center center, url('images/image-banner.png') no-repeat right center, url('images/on-dark-bg.png') no-repeat center center;
+        background-size: 120px 150px, 300px 100px, cover, cover;
+    }
+}

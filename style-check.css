@@ -1,0 +1,231 @@
+/* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+} */
+
+.heading-30{
+    font-size:150px;
+}
+.sub-head-30{
+    font-size:64px;
+}
+.car-div{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container-car {
+    position: relative;
+    max-width: 40rem;
+    /* margin-left: auto; */
+    left:36%;
+    top:0%;
+}
+
+.indicator-car {
+    position: relative;
+    /* max-width: 500px; */
+    right:41%;
+    bottom:28%;
+}
+.car-img{
+    height:180px;
+    width:250px;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.wrapper {
+    position: relative;
+}
+
+.item-car {
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+}
+
+.big-circle {
+    height: 400px;
+    overflow: visible;
+    width: 400px;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.st0 {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.0);
+    stroke-width: 2;
+    stroke-miterlimit: 1;
+}
+
+.start {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+.top-div {
+    background: url('images/on-light-bg.png') no-repeat top center, linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 1.0));
+    background-size: cover;
+}
+.theory-bg {
+    background: url('images/earth-removebg.png') no-repeat 200% center, url('images/theory-bg.png') no-repeat center center;
+    /* background-size: cover; */
+    background-size: 1000px 560px, cover;
+}
+
+.heading-hubble{
+    font-size: 40px;
+}
+
+@media (min-width: 1400px){
+    .theory-bg {
+        background: url('images/earth-removebg.png') no-repeat 230% center, url('images/theory-bg.png') no-repeat center center;
+        /* background-size: cover; */
+        background-size: 1500px 860px, cover;
+    }
+    .car-img{
+        height:280px;
+        width:350px;
+    }
+    .big-circle {
+        height: 500px;
+        overflow: visible;
+        width: 500px;
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container-car {
+        position: relative;
+        max-width: 42rem;
+        /* margin-left: auto; */
+        left:36%;
+        top:-12%;
+    }
+    .heading-hubble{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1200px){
+    .theory-bg {
+        background: url('images/earth-removebg.png') no-repeat center 200%, url('images/theory-bg.png') no-repeat center center;
+        /* background-size: cover; */
+        background-size: 1300px 700px, cover;
+    }
+    .car-img{
+        height:200px;
+        width:280px;
+    }
+    .big-circle {
+        height: 430px;
+        overflow: visible;
+        width: 430px;
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container-car {
+        position: relative;
+        max-width: 46rem;
+        /* margin-left: auto; */
+        left:20%;
+        top:106%;
+    }
+    .heading-30{
+        font-size:120px;
+    }
+    .sub-head-30{
+        font-size:60px;
+    }
+    .indicator-car {
+        position: relative;
+        /* max-width: 500px; */
+        left:42%;
+        bottom:75%;
+    }
+    .indicator-left{
+        transform: rotate(-90deg);
+    }
+    .indicator-right{
+        transform: rotate(-90deg);
+    }
+    .heading-hubble{
+        font-size:40px;
+    }
+}
+
+@media (max-width: 768px){
+    .theory-bg {
+        background: url('images/earth-removebg.png') no-repeat center 130%, url('images/theory-bg.png') no-repeat center center;
+        /* background-size: cover; */
+        background-size: 520px 290px, cover;
+    }
+    .car-img{
+        height:110px;
+        width:140px;
+    }
+    .big-circle {
+        height: 180px;
+        overflow: visible;
+        width: 180px;
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container-car {
+        position: relative;
+        max-width: 38rem;
+        /* margin-left: auto; */
+        left:10%;
+        top:40%;
+    }
+    .heading-30{
+        font-size:40px;
+    }
+    .sub-head-30{
+        font-size:30px;
+    }
+    .indicator-car {
+        position: relative;
+        /* max-width: 500px; */
+        left:34%;
+        bottom:75%;
+    }
+    .indicator-left{
+        transform: rotate(-90deg);
+    }
+    .indicator-right{
+        transform: rotate(-90deg);
+    }
+    .heading-hubble{
+        font-size:24px;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link href="https://fonts.cdnfonts.com/css/saved-by-zero" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+    <link href="style-check.css" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+</head>
+
+<body>
+    <div class="container-fluid top-div vh-100">
+        <div class="container">
+
+        </div>
+    </div>
+    <div class="container-fluid p-0 vh-100 dark-bg theory-bg d-flex car-div justify-content-center align-items-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-7 d-flex flex-column justify-content-center ps-2 text-center">
+                    <h2 class="light-text display-text text-center lh-1 heading-30">30</h2>
+                    <h4 class="light-text alien-condensed text-uppercase text-center sub-head-30">images of</h4>
+                    <button type="button" class="btn btn-light btn-lg mx-auto display-text text-decoration-none heading-hubble rounded rounded-1">hubble</button>
+                    <button type="button" class="btn btn-light mx-auto mt-5 btn-lg d-none d-md-block rounded-pill alien-bold">view all  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg></button>
+                    <button type="button" class="btn btn-light mx-auto mt-5 btn-sm d-block d-md-none rounded-pill alien-bold">view all  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg></button>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="container-car flip">
+                      <div class="wrapper">
+                        <div class="item-car" id="box1">
+                          <img src="images/car-1.png" alt="" class="car-img rounded rounded-4 border border-light border-5" />
+                        </div>
+                        <div class="item-car" id="box2">
+                          <img src="images/car-2.png" alt="" class="car-img rounded rounded-4 border border-light border-5"/>
+                        </div>
+                        <div class="item-car" id="box3">
+                          <img src="images/car-3.png" alt="" class="car-img rounded rounded-4 border border-light border-5" />
+                        </div>
+                        <div class="item-car" id="box4">
+                          <img src="images/car-4.png" alt="" class="car-img rounded rounded-4 border border-light border-5" />
+                        </div>
+                        <div class="item-car" id="box5">
+                          <img src="images/car-5.png" alt="" class="car-img rounded rounded-4 border border-light border-5" />
+                        </div>
+                        <svg viewBox="0 0 300 300" class="big-circle">
+                          <circle id="holder" class="st0" cx="151" cy="151" r="250" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="indicator-car d-flex">
+                      <button id="prev" class="btn btn-light me-5 me-lg-3 p-2 px-lg-3 py-lg-2 rounded rounded-pill indicator-left"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-up icon-dark" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+                      </svg></button>
+                      <button id="next" class="btn btn-light p-2 px-lg-3 py-lg-2 rounded rounded-pill indicator-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-down icon-dark" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                      </svg></button>
+                    </div>
+                </div>
+                  
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid top-div vh-100">
+        <div class="container">
+
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+<script src="check.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>

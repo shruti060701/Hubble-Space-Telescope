@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link href="https://fonts.cdnfonts.com/css/saved-by-zero" rel="stylesheet">
+    <link href="common.css" rel="stylesheet">
+    <link rel="stylesheet" href="image-check.css">
+</head>
+<body class="bg-dark">
+  <div class="container-fluid d-flex justify-content-center text-center align-items-center">
+    <div class="container">
+      <button type="button" class="btn btn-lg btn-dark rounded rounded-pill alien-bold light-text tele-btn" onclick="openTab('telescope')">Telescope</button>
+      <button type="button" class="btn btn-lg btn-dark rounded rounded-pill alien-bold light-text gala-btn" onclick="openTab('galaxies')">Galaxies</button>
+      <button type="button" class="btn btn-lg btn-dark rounded rounded-pill alien-bold light-text univ-btn" onclick="openTab('universe')">Universe</button>
+      <button type="button" class="btn btn-lg btn-dark rounded rounded-pill alien-bold light-text exop-btn" onclick="openTab('exoplanets')">Exoplanets</button>
+      <button type="button" class="btn btn-lg btn-dark rounded rounded-pill alien-bold light-text sola-btn" onclick="openTab('solar')">Solar System</button>
+    </div>
+  </div>
+
+
+  <!-- TELESCOPE TAB STARTS -->
+  <div id="telescope" class="tabs">
+    <div class="scene">
+      <div class="carousel-1">
+        <div class="carousel__cell">
+          <img src="images/telescope-1.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/telescope-2.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/telescope-3.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/telescope-4.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/telescope-5.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/telescope-6.png" alt="" height="400px" width="300px">
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; position:absolute; top:80%; left:46%;">
+      <button type="button" class="previous-button-1 rounded rounded-pill btn btn-light me-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-left icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+      </svg></button>
+      <button class="next-button-1 rounded rounded-pill btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-right icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg></button>
+    </p>
+  </div>
+  <!-- TELESCOPE TAB ENDS -->
+
+
+
+  <!-- GALAXIES TAB STARTS -->
+  <div id="galaxies" class="tabs">
+    <div class="scene">
+      <div class="carousel-2">
+        <div class="carousel__cell">
+          <img src="images/galaxies-1.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/galaxies-2.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/galaxies-3.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/galaxies-4.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/galaxies-5.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/galaxies-6.png" alt="" height="400px" width="300px">
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; position:absolute; top:80%; left:46%;">
+      <button class="previous-button-2 rounded rounded-pill btn btn-light me-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-left icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+      </svg></button>
+      <button class="next-button-2 rounded rounded-pill btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-right icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg></button>
+    </p>
+  </div>
+  <!-- GALAXIES TAB ENDS -->
+
+
+
+  <!-- UNIVERSE TAB STARTS -->
+  <div id="universe" class="tabs">
+    <div class="scene">
+      <div class="carousel-3">
+        <div class="carousel__cell">
+          <img src="images/universe-1.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/universe-2.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/universe-3.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/universe-4.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/universe-5.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/universe-6.png" alt="" height="400px" width="300px">
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; position:absolute; top:80%; left:46%;">
+      <button class="previous-button-3 rounded rounded-pill btn btn-light me-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-left icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+      </svg></button>
+      <button class="next-button-3 rounded rounded-pill btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-right icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg></button>
+    </p>
+  </div>
+  <!-- UNIVERSE TAB ENDS -->
+
+
+
+  <!-- EXOPLANETS TAB STARTS -->
+  <div id="exoplanets" class="tabs">
+    <div class="scene">
+      <div class="carousel-4">
+        <div class="carousel__cell">
+          <img src="images/exoplanets-1.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/exoplanets-2.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/exoplanets-3.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/exoplanets-4.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/exoplanets-5.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/exoplanets-6.png" alt="" height="400px" width="300px">
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; position:absolute; top:80%; left:46%;">
+      <button class="previous-button-4 rounded rounded-pill btn btn-light me-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-left icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+      </svg></button>
+      <button class="next-button-4 rounded rounded-pill btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-right icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg></button>
+    </p>
+  </div>
+  <!-- EXOPLANETS TAB ENDS -->
+
+
+
+  <!-- SOLAR SYSTEM TAB STARTS -->
+  <div id="solar" class="tabs">
+    <div class="scene">
+      <div class="carousel-5">
+        <div class="carousel__cell">
+          <img src="images/solar-1.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/solar-2.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/solar-3.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/solar-4.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/solar-5.png" alt="" height="400px" width="300px">
+        </div>
+        <div class="carousel__cell">
+          <img src="images/solar-6.png" alt="" height="400px" width="300px">
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; position:absolute; top:80%; left:46%;">
+      <button class="previous-button-5 rounded rounded-pill btn btn-light me-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-left icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+      </svg></button>
+      <button class="next-button-5 rounded rounded-pill btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-right icon-dark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg></button>
+    </p>
+  </div>
+  <!-- SOLAR SYSTEM TAB ENDS -->
+
+      <script>
+        function openTab(tabName) {
+          var i;
+          var x = document.getElementsByClassName("tabs");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          document.getElementById(tabName).style.display = "block";  
+        }
+      </script>
+
+
+      <script src="image-check.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
